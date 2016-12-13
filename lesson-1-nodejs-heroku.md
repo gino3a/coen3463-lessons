@@ -37,7 +37,7 @@
 * Set Heroku Git URL
 
 ```
-    $ git remote add origin https://git.heroku.com/myapp-1234.git
+    $ git remote add heroku https://git.heroku.com/myapp-1234.git
 ```
 
 * Setup Node package
