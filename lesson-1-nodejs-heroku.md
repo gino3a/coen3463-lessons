@@ -24,14 +24,19 @@
 
 * To create a new empty repository, run on a terminal:
 
+
     $ mkdir myapp
     $ cd myapp
     $ git init
 
 * Set Github URL
+
+
     $ git remote add origin git@github.com:juandelacruz/myapp.git
 
 * Set Heroku Git URL
+
+
     $ git remote add origin https://git.heroku.com/myapp-1234.git
 
 
@@ -58,15 +63,18 @@ This file will be generated for you containing the list of your dependencies (th
 * Install Express in your project folder
 Still in the `myapp` folder, run:
 
+
      $ npm install --save express
 
 * Add start command in package.json
+
 
     "scripts" : {
         "start": "node app.js"
     }
 
 Your package.json should look something like this now
+
 
     {
       "name": "myapp",
@@ -123,9 +131,11 @@ Your package.json should look something like this now
 
 * Push to Github
 
+
     $ git push origin master
 
 * Push to Heroku
+
 
     $ git push heroku master
 
