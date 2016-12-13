@@ -69,14 +69,14 @@ Still in the `myapp` folder, run:
 ```
 * Add start command in package.json
 
-```
+```javascript
     "scripts" : {
         "start": "node app.js"
     }
 ```
 Your package.json should look something like this now
 
-```
+```javascript
     {
       "name": "myapp",
       "version": "1.0.0",
@@ -95,7 +95,7 @@ Your package.json should look something like this now
 
 * Write in a file named **app.js**:
 
-```
+```javascript
     var express = require("express");
     var app = express();
 
