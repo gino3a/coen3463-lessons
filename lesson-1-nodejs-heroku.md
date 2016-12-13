@@ -5,8 +5,11 @@
 * the Heroku CLI.
 
 ### Create New Github Project
-Take note of SSH URL of the github project git@github.com:<username>/<project-name>.git
-eg: git@github.com:juandelacruz/myapp.git
+* Go to https://github.com/new
+* Set Repository name (eg: myapp)
+* Click "Create Repository" button
+* Take note of SSH URL of the github project git@github.com:<username>/<project-name>.git
+   eg: git@github.com:juandelacruz/myapp.git
 
 ### Create New Heroku Project
 * Go to https://dashboard.heroku.com/new?org=personal-apps
@@ -14,7 +17,7 @@ eg: git@github.com:juandelacruz/myapp.git
 * Leave Runtime Selection set to United states
 * Click Create App button
 * Go to the Settings page of the created app and take note of this app's Git URL found in the Info Section
-eg: https://git.heroku.com/myapp-1234.git
+  eg: https://git.heroku.com/myapp-1234.git
 
 
 ### Create Node Project in your Local Environment
