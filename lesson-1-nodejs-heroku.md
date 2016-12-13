@@ -109,7 +109,7 @@ Your package.json should look something like this now
     });
 ```
 
-* Write in a file named *.gitignore*:
+* Write in a file named `.gitignore`:
 
 ```
     /node_modules
